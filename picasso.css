@@ -104,9 +104,9 @@ header {
     border-bottom: 440px solid green;
     bottom: 2%;
     right: 18%;
-  }
+}
 
-  #small-triangle {
+#small-triangle {
     position: absolute;
     width: 0;
     height: 0;
@@ -115,8 +115,29 @@ header {
     border-bottom: 300px solid rgb(214, 214, 111);
     bottom: 2%;
     right: 14%;
-  }
+}
 
-  footer {
+img {
+    position: absolute;
+    opacity: 0.3;
+    bottom: 2%;
+    left: 20%;
+}
+
+.input-form {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.forms-redirect-body {
+    background-image: url(https://i.pinimg.com/originals/00/ed/7e/00ed7ea3401fe1605ecaffeca76dc7ec.gif);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.header-forms-redirect {
+    position: absolute;
     text-align: center;
-  }
+    top: 50%;
+}
